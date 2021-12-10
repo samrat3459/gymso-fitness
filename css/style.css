@@ -162,32 +162,67 @@ header {
         text-align: center;
         background-color: rgba(128, 128, 128, 0.386);
     }
-    .full-menu{
+
+    .full-menu {
         position: static;
     }
+
     .top-bannar {
         width: 100%;
         transform: translateY(65px);
     }
+
     .bannar-text h3 {
         font-size: 18px;
     }
+
     .bannar-text h1 {
         font-size: 30px;
         width: 100%;
     }
+
     .btn-text {
         display: flex;
         flex-direction: column;
     }
-    
+
     .top-bannar-btn {
         width: 130px;
         padding: 10px;
         font-size: 14px;
         margin-top: 10px;
     }
-      
+
+}
+
+
+@media (max-width: 1081px) {
+    .logo h1 {
+        font-size: 30px;
+        display: block;
+    }
+
+    .menu {
+        display: block;
+    }
+
+    .menu ul {
+        display: block;
+    }
+
+    .navbar {
+        display: block;
+        text-align: center;
+        background-color: rgba(128, 128, 128, 0.386);
+    }
+
+    .full-menu {
+        position: static;
+    }
+
+    .top-bannar {
+        width: 100%
+    }
 }
 
 /* ========== membership ========== */
@@ -260,44 +295,99 @@ section {
     color: var(--light-color);
 }
 
-@media (max-width: 767px){
- section{
-     padding: 30px 0;
- }
+@media (max-width: 767px) {
+    section {
+        padding: 30px 0;
+    }
 
- .total-member {
-    display: flex;
-    flex-direction: column;
-    margin: auto;
-    text-align: center;
-}
-.left-member {
-    width: 100%;
-}
-.left-member h1, .right-working h1 {
-    font-size: 30px;
-}
-.left-member h4 {
-    font-size: 18px;
-}
-.left-member p, .right-working p {
-    font-size: 15px;
-    margin-bottom: 5px;
-}
-.right-working {
-    width: 100%;
-    border-left: none;
-    transform: translateX(-40px);
-     margin-top: 10px;
-}
-.right-working h4 {
-    line-height: 20px;
-}
-.member-btn {
-    padding: 12px;
-    margin-top: 15px;;
+    .total-member {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        text-align: center;
+    }
+
+    .left-member {
+        width: 100%;
+    }
+
+    .left-member h1, .right-working h1 {
+        font-size: 30px;
+    }
+
+    .left-member h4 {
+        font-size: 18px;
+    }
+
+    .left-member p, .right-working p {
+        font-size: 15px;
+        margin-bottom: 5px;
+    }
+
+    .right-working {
+        width: 100%;
+        border-left: none;
+        transform: translateX(-40px);
+        margin-top: 10px;
+    }
+
+    .right-working h4 {
+        line-height: 20px;
+    }
+
+    .member-btn {
+        padding: 12px;
+        margin-top: 15px;
+        ;
+    }
+
 }
 
+@media (max-width: 1100px) {
+    section {
+        padding: 40px 0;
+    }
+
+    .total-member {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        text-align: center;
+    }
+
+    .left-member {
+        width: 100%;
+    }
+
+    .left-member h1, .right-working h1 {
+        font-size: 30px;
+    }
+
+    .left-member h4 {
+        font-size: 18px;
+    }
+
+    .left-member p, .right-working p {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+
+    .right-working {
+        width: 100%;
+        border-left: none;
+        transform: translateX(-40px);
+        margin-top: 10px;
+    }
+
+    .right-working h4 {
+        line-height: 25px;
+    }
+
+    .member-btn {
+        padding: 12px;
+        margin-top: 18px;
+        ;
+    }
 }
 
 /* =========== our gymso ============ */
@@ -377,32 +467,55 @@ section {
 }
 
 
-@media (max-width: 767px){
+@media (max-width: 767px) {
     .full-gymso {
         display: flex;
         flex-direction: column;
         width: 100%;
     }
+
     .gymso-left h1 {
         font-size: 28px;
         margin-bottom: 5px;
         margin: auto;
         text-align: center;
     }
+
     .gymso-left p {
         text-align: center;
         font-size: 16px;
     }
+
     .full-card {
         width: 100%;
         display: flex;
         flex-direction: column;
         margin: auto;
     }
+
     .card-1 {
         margin: 15px 0;
     }
-    
+
+}
+
+@media (max-width: 1050px) {
+    .full-gymso {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .card-1 {
+        margin: 40px 0;
+    }
+
+    .gymso-left h1 {
+        font-size: 32px;
+        margin-bottom: 35px;
+        margin: auto;
+        text-align: center;
+    }
 }
 
 /* ============ our training ========= */
@@ -484,7 +597,7 @@ section {
     color: var(--p-color);
 }
 
-@media (max-width: 767px){
+@media (max-width: 767px) {
 
     .sub-heading {
         font-size: 18px;
@@ -500,11 +613,24 @@ section {
         display: flex;
         flex-direction: column;
     }
+
     .training-box {
         margin: 15px 0;
     }
 
 }
+
+@media (max-width: 999px) {
+    .full-training-box {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .training-box {
+        margin: 30px;
+    }
+}
+
 
 /* ================ time table =============== */
 
@@ -551,7 +677,7 @@ section {
     border-right: none !important;
 }
 
-@media (max-width: 767px){
+@media (max-width: 767px) {
 
     .full-time-box div {
         padding: 3px 0px;
@@ -641,12 +767,13 @@ iframe {
 }
 
 
-@media (max-width: 787px){
+@media (max-width: 787px) {
 
     .ask-anything {
         display: flex;
         flex-direction: column;
     }
+
     .ask-anything h1 {
         font-size: 28px;
         text-align: center;
@@ -666,11 +793,33 @@ iframe {
         transform: translateY(25px);
     }
 
+    .map-content h1 {
+        margin-top: 30px;
+    }
+
     iframe {
         width: 100%;
         margin-top: 60px;
     }
-    
+
+}
+
+@media (max-width: 1080px) {
+    .ask-anything {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .ask-anything h1 {
+        font-size: 32px;
+        text-align: center;
+    }
+
+    iframe {
+        width: 100%;
+        height: 400px;
+        margin-top: 90px;
+    }
 }
 
 /* ============= footer ========= */
