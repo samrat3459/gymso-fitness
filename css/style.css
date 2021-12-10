@@ -169,7 +169,7 @@ header {
 
     .top-bannar {
         width: 100%;
-        transform: translateY(65px);
+        transform: translateY(20px);
     }
 
     .bannar-text h3 {
