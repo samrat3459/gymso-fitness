@@ -376,6 +376,35 @@ section {
     color: var(--p-color);
 }
 
+
+@media (max-width: 767px){
+    .full-gymso {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .gymso-left h1 {
+        font-size: 28px;
+        margin-bottom: 5px;
+        margin: auto;
+        text-align: center;
+    }
+    .gymso-left p {
+        text-align: center;
+        font-size: 16px;
+    }
+    .full-card {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+    }
+    .card-1 {
+        margin: 15px 0;
+    }
+    
+}
+
 /* ============ our training ========= */
 
 #our-training {
@@ -455,6 +484,28 @@ section {
     color: var(--p-color);
 }
 
+@media (max-width: 767px){
+
+    .sub-heading {
+        font-size: 18px;
+        margin-bottom: 5px;
+    }
+
+    .heading {
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+
+    .full-training-box {
+        display: flex;
+        flex-direction: column;
+    }
+    .training-box {
+        margin: 15px 0;
+    }
+
+}
+
 /* ================ time table =============== */
 
 #working-timetable {
@@ -498,6 +549,26 @@ section {
 
 .none {
     border-right: none !important;
+}
+
+@media (max-width: 767px){
+
+    .full-time-box div {
+        padding: 3px 0px;
+    }
+
+    .day, .day h4 {
+        font-size: 10px;
+    }
+
+    .time p {
+        font-size: 12px;
+    }
+
+    .name-time h4, .name-time p {
+        font-size: 10px;
+        text-align: center;
+    }
 }
 
 /* --============== ask anything ============= */
@@ -567,6 +638,39 @@ iframe {
     width: 496px;
     height: 240px;
     margin-top: 100px;
+}
+
+
+@media (max-width: 787px){
+
+    .ask-anything {
+        display: flex;
+        flex-direction: column;
+    }
+    .ask-anything h1 {
+        font-size: 28px;
+        text-align: center;
+    }
+
+    #ask-text, #message {
+        padding: 14px;
+        font-size: 14px;
+    }
+
+    #ask-btn {
+        padding: 10px;
+        font-size: 16px;
+    }
+
+    .map-content p::after {
+        transform: translateY(25px);
+    }
+
+    iframe {
+        width: 100%;
+        margin-top: 60px;
+    }
+    
 }
 
 /* ============= footer ========= */
